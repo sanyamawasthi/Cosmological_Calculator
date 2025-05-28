@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Sanyam Awasthi">
+  <meta http-equiv="refresh" content="2">
+  <title>Info Page</title>
+  <style>
+    body {
+      background-color: #2f2f2f;
+      color: #ffffff;
+      font-size: 1em;
+      font-family: Arial, sans-serif;
+    }
+
+    a {
+      color: #ff6f6f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+    .button-class {
+      background-color: #4f4f4f;
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button-class:hover {
+      background-color: #6f6f6f;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      color: #ff6f6f;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #4f4f4f;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    p {
+      padding: 10px;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #4f4f4f;
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Some basic terminologies and understanding of them</h1>
+
+  <ul>
+    <li>Cosmological Redshift</li>
+    <li>Matter Density</li>
+    <li>Radiation Density</li>
+    <li>Dark Energy</li>
+    <li>Age of Universe and Redshift</li>
+    <li>Angular Diameter Distance</li>
+    <li>Luminosity Distance</li>
+    <li>CMB Temperature</li>
+  </ul>
+
+  <p>Go for the <a href="{{url_for('calc')}}" class="button-class">cosmological calculator</a> (click on the grey part
+    YO!)</p>
+
+  <h2>Cosmological Redshift :</h2>
+  <p>In normal on-going life, we have redshift or blueshift arising due to relative motion between objects. Similarly,
+    in cosmology, we have cosmological redshift which not just an indication of relative radial speed between galaxies
+    but can also give an idea of how much one has gone into the past. More the value of Cosmological redshift, more old
+    universe we are looking at. This is an important parameter to know the age, relative speed, and distance from
+    observer to the target galaxy.</p>
+
+  <h2>Density</h2>
+  <p>Universe keeps on expanding and this expansion is accelerating as per observations. Now this expansion and speed of
+    expansion are not dictated by density of matter, radiation density, and dark energy density</p>
+
+  <h3>Matter Density</h3>
+  <p>Comprised of baryonic matter (electron, proton, and neutron) and dark matter.</p>
+
+  <h3>Radiation Density</h3>
+  <p>Contributed by radiation from stars, galaxies, and dust. Photons present in the universe is best idea to keep
+    better understanding.</p>
+
+  <h3>Dark Energy</h3>
+  <p>As universe expands, this expansion accelerates too. Now supernovae were being studied and their brightness was
+    calculated. In reality, they were fainter than the brightness recorded. It concluded to presence of new density
+    called dark energy density.</p>
+
+  <h2>Age of universe and Redshift</h2>
+  <p>To be put simply, more the redshift observed from the galaxy, more old galaxy or universe we are looking at and
+    near it is to big bang. For example, galaxy with redshift=7.15 tells that we are looking at galaxy when universe was
+    740 million years old.</p>
+
+  <h2>Distance in Cosmology</h2>
+  <p>Deriving distance in astronomy is very important and difficult. For different scales, different methods are used to
+    derive the distance but we are going to look how distances to galaxy are calculated in cosmology.</p>
+
+  <h3>Angular Diameter Distance</h3>
+  <p>Consider that you have some galaxy looking like a large scale of length L. Using that length, you try to estimate
+    the distance to that scale-galaxy it subtends some angle θ so that . This can be used to get derive angular
+    scale(size per arcsecond or whatever way one wants to look at it).</p>
+
+  <h3>Luminosity Distance</h3>
+  <p>What would be the distance to the galaxy with luminosity observed.</p>
+
+  <h2>CMB Temperature</h2>
+  <p>CMB (Cosmic Microwave Background) is the radiation that has filled the universe and has been present from the
+    starting of the universe. Now as universe expanded, the temperature of the CMB also has decreased. Using redshift,
+    one can determine the temperature for the universe at that redshift. For present universe, the temperature is 2.3 K.
+  </p>
+
+  <hr>
+
+  <footer>
+    <p>Created by Sanyam Awasthi</p>
+    <p>Student of Astronomy and Astrophysics</p>
+    <p>Department of Earth and Space Science</p>
+    <p>Indian Institute of Space Science and Technology</p>
+  </footer>
+</body>
+
+</html>
